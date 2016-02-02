@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for stanford_openclassroom_scraper project
+# Scrapy settings for stanford_openclassroom_downloader project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'stanford_openclassroom_scraper'
+BOT_NAME = 'stanford_openclassroom_downloader'
 
-SPIDER_MODULES = ['stanford_openclassroom_scraper.spiders']
-NEWSPIDER_MODULE = 'stanford_openclassroom_scraper.spiders'
+SPIDER_MODULES = ['stanford_openclassroom_downloader.spiders']
+NEWSPIDER_MODULE = 'stanford_openclassroom_downloader.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'stanford_openclassroom_scraper (+http://www.yourdomain.com)'
+#USER_AGENT = 'stanford_openclassroom_downloader (+http://www.yourdomain.com)'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS=32
@@ -44,13 +44,13 @@ NEWSPIDER_MODULE = 'stanford_openclassroom_scraper.spiders'
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'stanford_openclassroom_scraper.middlewares.MyCustomSpiderMiddleware': 543,
+#    'stanford_openclassroom_downloader.middlewares.MyCustomSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'stanford_openclassroom_scraper.middlewares.MyCustomDownloaderMiddleware': 543,
+#    'stanford_openclassroom_downloader.middlewares.MyCustomDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -62,7 +62,7 @@ NEWSPIDER_MODULE = 'stanford_openclassroom_scraper.spiders'
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'stanford_openclassroom_scraper.pipelines.SomePipeline': 300,
+#    'stanford_openclassroom_downloader.pipelines.SomePipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
