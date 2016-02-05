@@ -1,6 +1,10 @@
 Stanford OpenClassroom Downloader
 ===================
 
+This is only a test to write the downloader program with `scrapy`.
+For real usage please checkout my simpler project [HERE](https://github.com/AlmogCohen/open_classroom_downloader)
+
+
 Enchance the great learning experience of [Stanford OpenClassroom](http://openclassroom.stanford.edu/MainFolder/HomePage.php):
 
  - Watch the videos offline when you have no internet coneection.
